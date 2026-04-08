@@ -1,5 +1,5 @@
 /**
- * Test: Home Cleaning Booking (One-Time / ONCE frequency)
+ * Test: Home Cleaning Booking (One-Time / ONCE frequency and 2 hours duration)
  *
  * This test verifies the complete end-to-end booking flow for a one-time
  * home cleaning service. It uses the pre-authenticated session (from global setup)
