@@ -1,0 +1,10 @@
+node_modules/
+playwright-report/
+dist/
+.idea/
+.vscode/
+*.log
+.env
+auth-state.json
+screenshots/
+NUL

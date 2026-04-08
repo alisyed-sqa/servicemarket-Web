@@ -1,0 +1,21 @@
+{
+  "name": "servicemarket-playwright",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:super-flow": "playwright test tests/z-homecleaning.spec.ts tests/z-weeklycleaning.spec.ts tests/z-multiweekcleaning.spec.ts tests/z-womensalon.spec.ts --workers=1 --max-failures=1",
+    "test:super-flow-single": "playwright test tests/z-super-booking-flow.spec.ts",
+    "test:cleaning": "playwright test tests/z-homecleaning.spec.ts",
+    "test:weekly": "playwright test tests/z-weeklycleaning.spec.ts",
+    "test:multiweek": "playwright test tests/z-multiweekcleaning.spec.ts",
+    "test:salon": "playwright test tests/z-womensalon.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^25.0.3",
+    "typescript": "^4.9.0"
+  }
+}
