@@ -5,7 +5,8 @@
  * Purpose: Log in to the ServiceMarket UAT site using OTP authentication,
  * then save the authenticated session (cookies/localStorage) to 'auth-state.json'.
  * All subsequent tests reuse this saved session so they don't need to log in again.
- */
+ Add new comment*/
+
 import { chromium, FullConfig } from '@playwright/test';
 import { AuthPage } from './src/pages/AuthPage';
 
